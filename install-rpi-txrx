@@ -1,0 +1,6 @@
+wget https://github.com/philcrump/rpi-txrx/archive/master.zip
+unzip -o master.zip
+rm master.zip
+mv rpi-txrx-master rpi-txrx
+cd rpi-txrx/
+make
